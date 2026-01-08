@@ -4,26 +4,29 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-.btn{
-    font-size: 16px;
-    font-weight: 600;
-    padding: 12px 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #30B868;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
+.container {
+  width: 1360px;
+  margin: auto;
 }
-.btn:hover{
-    background-color: #43574b;
+.btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #30b868;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #43574b;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 120px;
-  padding: 16px 0;
+  padding: 9px;
 }
 
 nav ul {
@@ -37,5 +40,76 @@ nav ul {
   text-decoration: none;
   color: black;
   font-size: 16px;
+  transition: 0.3s;
+}
+.menu li a:hover{
+    color: #165731;
+
 }
 
+.banner {
+  background: url(./assets/hero-bg.png);
+  padding: 120px;
+}
+.banner h1 {
+  font-size: 78px;
+  font-family: 800;
+  text-align: center;
+  color: white;
+  margin: 16px 0;
+}
+.banner h1 span {
+  color: #30b868;
+}
+.banner .banner-description {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.banner-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  width: 230px;
+  margin: auto;
+  padding: 8px 12px;
+  border-radius: 30px;
+}
+
+.banner-top .circle {
+  width: 10px;
+  height: 10px;
+  background-color: #30b868;
+  border-radius: 50%;
+  box-shadow: 0px 0px 13px 2px #30b869;
+}
+.banner-top .circle p {
+  font-size: 16px;
+  color: #30b868;
+  font-weight: 500;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.btn-2 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-2:hover{
+    background-color: rgba(255, 255, 255, 0.295);
+
+}
