@@ -57,6 +57,7 @@ nav ul {
   text-align: center;
   color: white;
   margin: 16px 0;
+  text-transform: capitalize;
 }
 .banner h1 span {
   color: #30b868;
